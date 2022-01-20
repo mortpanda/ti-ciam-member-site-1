@@ -68,7 +68,7 @@ export class GetUserinfoService {
     this.UserStatus = this.strThisUserInfo.status;
     this.UserPasswordLastChanged = this.strThisUserInfo.passwordChanged;
     this.UserCreatedDate = this.strThisUserInfo.created;
-    this.UserVerifiedEMail = this.strThisUserInfo.credentials.emails[0].status;
+    // this.UserVerifiedEMail = this.strThisUserInfo.credentials.emails[0].status;
     this.UserCredType = this.strThisUserInfo.credentials.provider.type;
     this.UserCredName = this.strThisUserInfo.credentials.provider.name;
     this.UserEmail = this.strThisUserInfo.profile.email;
